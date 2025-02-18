@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-----------============= Bootstrap 4 Css =============------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!------------============== My Css ===============--------------->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+
+    <!----------- Bg Image -------------->
+    <div class="body_full">
+        <div class="body_bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 school_about">
+                    <h2>Find the Best School for Your Child</h2>
+                    <h4>Explore & Choose the Perfect School</h4>
+                    <p>Looking for the ideal school? [Your Website Name] helps parents and students discover top-rated
+                        schools based on location, facilities, and academic excellence. Our platform makes it easy to
+                        compare schools and make informed decisions for a brighter future.</p>
+                        <div class="row review_row">
+                            <div class="col-lg-3 col-6 review_box">
+                                <div class="review">
+                                    <h4>1000+</h4>
+                                <p>Schools</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 review_box">
+                                <div class="review">
+                                    <h4>4.5</h4>
+                                <p>Ratings</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 review_box">
+                                <div class="review">
+                                    <h4>800+</h4>
+                                <p>Students</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 review_box">
+                                <div class="review">
+                                    <h4>60+</h4>
+                                <p>Modules</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 col-10 form_box">
+                    <h4>Connect with our Experts</h4>
+                    <form>
+                        <div class="row">
+                            <div class="col-12 input_box">
+                                <input type="text" placeholder="Your Name">
+                                <label>Your Name</label>
+                            </div>
+                            <div class="col-6 input_box">
+                                <input type="text" placeholder="Mobile No.">
+                                <label>Mobile No.</label>
+                            </div>
+                            <div class="col-6 input_box">
+                                <input type="email" placeholder="Your Email">
+                                <label>Your Email</label>
+                            </div>
+                            <div class="col-6 input_box">
+                                <label for="district">Location</label>
+                                <select id="district" name="district" required>
+                                    <option value="">Choose your district</option>
+                                    <option value="Alipurduar">Alipurduar</option>
+                                    <option value="Bankura">Bankura</option>
+                                    <option value="Bardhaman">Bardhaman</option>
+                                    <option value="Birbhum">Birbhum</option>
+                                    <option value="Cooch Behar">Cooch Behar</option>
+                                    <option value="Dakshin Dinajpur">Dakshin Dinajpur</option>
+                                    <option value="Darjeeling">Darjeeling</option>
+                                    <option value="Hooghly">Hooghly</option>
+                                    <option value="Howrah">Howrah</option>
+                                    <option value="Jalpaiguri">Jalpaiguri</option>
+                                    <option value="Jhargram">Jhargram</option>
+                                    <option value="Kalimpong">Kalimpong</option>
+                                    <option value="Kolkata">Kolkata</option>
+                                    <option value="Malda">Malda</option>
+                                    <option value="Murshidabad">Murshidabad</option>
+                                    <option value="Nadia">Nadia</option>
+                                    <option value="North 24 Parganas">North 24 Parganas</option>
+                                    <option value="Paschim Medinipur">Paschim Medinipur</option>
+                                    <option value="Paschim Burdwan">Paschim Burdwan</option>
+                                    <option value="Purba Medinipur">Purba Medinipur</option>
+                                    <option value="Purba Burdwan">Purba Burdwan</option>
+                                    <option value="Purulia">Purulia</option>
+                                    <option value="South 24 Parganas">South 24 Parganas</option>
+                                    <option value="South Dinajpur">South Dinajpur</option>
+                                    <option value="Uttar Dinajpur">Uttar Dinajpur</option>
+                                </select>
+
+                            </div>
+                            <div class="col-6 input_box">
+                                <label for="school_type">School Type:</label>
+                                <select id="school_type" name="school_type">
+                                    <option value="public">Public</option>
+                                    <option value="private">Private</option>
+                                    <option value="international">International</option>
+                                    <option value="boarding">Boarding</option>
+                                    <option value="montessori">Montessori</option>
+                                </select>
+                            </div>
+                            <div class="col-6 input_box">
+                                <label for="curriculum">Curriculum:</label>
+                                <select id="curriculum" name="curriculum">
+                                    <option value="cbse">CBSE</option>
+                                    <option value="icse">ICSE</option>
+                                    <option value="state">State Board</option>
+                                    <option value="ib">IB</option>
+                                    <option value="cambridge">Cambridge</option>
+                                </select>
+                            </div>
+                            <div class="col-6 input_box">
+                                <label for="grade">Grade/Class:</label>
+                                <input type="number" id="grade" name="grade" min="1" max="12"
+                                    placeholder="Enter grade/class">
+                            </div>
+                            <button class="search_btn" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------================ Bootstrap 4 Js ============------------------>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
